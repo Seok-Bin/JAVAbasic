@@ -16,5 +16,7 @@ public class BinaryTest {
         System.out.println("octal = " + octal);
         int hexa = 0x45;
         System.out.println("hexa = " + hexa);
+
+
     }
 }
