@@ -1,4 +1,4 @@
-package VDATest;
+package DataTypeTest;
 
 public class BinaryExam {
     public static void main(String[] args) {
