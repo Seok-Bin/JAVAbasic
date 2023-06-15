@@ -2,6 +2,7 @@ package DataTypeTest;
 
 public class CharExam {
     public static void main(String[] args) {
+        // '1' + '2' + '3' + '4' + '5' = 15가 나오도록 프로그래밍
         char a = '1';
         char b = '2';
         char c = '3';
