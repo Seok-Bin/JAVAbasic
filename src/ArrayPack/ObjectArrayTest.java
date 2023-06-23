@@ -9,7 +9,7 @@ public class ObjectArrayTest {
         System.out.println(f[0]);
         System.out.println(f[1]);
         System.out.println(f[2]);
-        // 책 3권을 저장 할 배열을 생성하고 데이터를 저장, 출력하세여
+        // 책 3권을 저장 할 배열을 생성하고 데이터를 저장, 출력하세여 (객체배열)
         Book[] b = new Book[3];
 
         b[0] = new Book();
