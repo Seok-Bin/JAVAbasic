@@ -7,6 +7,6 @@ public class Book {
     public int price;
     public String company;
     public String author;
-    public int page = 700;
+    public int page;
     public String isbn;
 }
