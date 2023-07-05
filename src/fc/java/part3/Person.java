@@ -1,4 +1,4 @@
-package fc.java.part3.classmodeling;
+package fc.java.part3;
 // 객체(Object) = 상태정보(멤버 변수) + 행위정보(멤버메소드)
 public class Person {
     public String name;
