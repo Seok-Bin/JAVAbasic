@@ -44,4 +44,9 @@ public class PersonVO {
     public String getPhone() {
         return phone;
     }
+
+    // toString() 메서드에 모든 값을 문자열로 만들기
+    public String toString(){
+        return name + "\t" + age + "\t" + phone;
+    }
 }
