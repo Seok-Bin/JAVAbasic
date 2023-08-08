@@ -1,15 +1,25 @@
 package fc.java.part4;
 //사원 (vo,DTO)
 public class Employee {
-    protected String name;
-    protected int age;
-    protected String phone;
-    protected String empDate;
-    protected String dept;
-    protected boolean marriage;
+    private String name;
+    private int age;
+    private String phone;
+    private String empDate;
+    private String dept;
+    private boolean marriage;
 
     public Employee(){
         super(); //상위 클래스의 생서자를 호출 -> new Object()  (생략가능)
+    }
+
+    //부모가 직접 초기화
+    public Employee(String name, int age, String phone, String empDate, String dept, boolean marriage) {
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.empDate = empDate;
+        this.dept = dept;
+        this.marriage = marriage;
     }
 
     @Override
