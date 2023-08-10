@@ -1,6 +1,7 @@
 package fc.java.model;
 
 public class CatVO extends AnimalVO{
+    // 재정의 (override)
     @Override
     public void eat() {
         System.out.println("고양이가 먹다");
