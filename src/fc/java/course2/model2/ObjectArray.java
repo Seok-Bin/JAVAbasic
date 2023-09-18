@@ -9,7 +9,11 @@ public class ObjectArray {
 
     // 생성동작
     public ObjectArray(){
-        elements = new Object[DEFAULT_CAPACITY]; // 5개 크기의 배열 생성
+        this(5); // 5개 크기의 배열 생성
+    }
+
+    public ObjectArray(int capacity){
+        elements = new Object[capacity]; //원하느 크기로 배열을 만드는 기능
     }
 
 
