@@ -1,0 +1,7 @@
+package fc.java.course1.part2.JavaSEProjectTest;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("안녕. World");
+    }
+}
